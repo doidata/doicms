@@ -1,3 +1,23 @@
+This is PHP Code based on the CAKE PHP Framework.
+
+If you ever used DOI Metadata you might know how hard it is to handle all those XML values and dependecies. I took the relevant DOI Data fields for Web objects, and created a XML -> MYSQL mapping in order to store DOI Metadata in a relational database. The code you can download here is a complete Content Management System, an XML creation tool, as well as a repository for normal users to browse the DOI information of your registered Codes.
+
+The MySQL Dabase schema will be offered on github in a separate section under my username.
+
+The "Digital Object Identifier" System is an international standard to add metadata to works. There a many data fields for each DOI record, which have to be assembled into a valid XML file for upload to the Registration Agency. In order to create, view, filter and sort the DOI Codes for an online literature magazine, we prorammed this Web-CMS. It serves the following separate functions:
+1) Enter DOI Metadata for a specific web document (ADMIN Mode)
+2) Create a valid XML file for deployment to the RA (ADMIN Mode)
+3) Make the Database of DOI Codes and Metadata browsable for normal Users
+4) Offer a REST API to harvest our DOI Metadata automatically
+
+Feel free to mail me for questions. I hope this is useful for someone, as it took me about a year of my free time to get this thing together. You can see it in action at:
+http://doidata.net
+
+August 2010, Karl Petermichl.
+
+Here is the CAKE PHP standard README:
+
+
 CakePHP is a rapid development framework for PHP which uses commonly known design patterns like Active Record, Association Data Mapping, Front Controller and MVC. Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility.
 
 The Cake Software Foundation - promoting development related to CakePHP
