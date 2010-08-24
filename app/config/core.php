@@ -223,6 +223,6 @@
  *
  */
 	Cache::config('default', array('engine' => 'File'));
-	Configure::write('Admin.Username','username');
-	Configure::write('Admin.Password','password');
+	Configure::write('Admin.Username','yourusername');
+	Configure::write('Admin.Password','yourpassword');
 ?>
