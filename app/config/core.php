@@ -26,7 +26,6 @@
  */
 /**
  * CakePHP Debug Level:
- *
  * Production Mode:
  * 	0: No error messages, errors, or warnings shown. Flash messages redirect.
  *
