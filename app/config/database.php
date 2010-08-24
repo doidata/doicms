@@ -82,8 +82,8 @@ class DATABASE_CONFIG {
 		'driver' => 'mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'doidata_web9',
-		'password' => 'alpha111',
+		'login' => 'username',
+		'password' => 'password',
 		'database' => 'doidata',
 		'prefix' => '',
 	);
